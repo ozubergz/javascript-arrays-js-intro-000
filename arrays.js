@@ -6,9 +6,9 @@ var destructivelyAddElementToBeginningOfArray = (a, e) => {
   a.unshift(e)
   return a
 }
-//
-// var addElementToEndOfArray = (a, e) => [a..., e];
-//
+
+var addElementToEndOfArray = (a, e) => [a..., e];
+
 // var destructivelyAddElementToEndOfArray = (a, e) => {
 //   a.push(e)
 //   return a
