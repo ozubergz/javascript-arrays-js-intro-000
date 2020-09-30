@@ -1,4 +1,4 @@
-var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
+let chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 
 var addElementToBeginningOfArray = (a, e) => [e, ...a];
 
@@ -7,7 +7,7 @@ var destructivelyAddElementToBeginningOfArray = (a, e) => {
   return a
 }
 
-function addElementToEndOfArray (array, element) { return [array..., element] }
+// function addElementToEndOfArray (array, element) { return [array..., element] }
 
 // var destructivelyAddElementToEndOfArray = (a, e) => {
 //   a.push(e)
