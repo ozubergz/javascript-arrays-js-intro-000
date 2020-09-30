@@ -1,1 +1,1 @@
-const chocolateBars = ['snickers', 'hund']
+const chocolateBars = ['snickers', 'hundred grad']
