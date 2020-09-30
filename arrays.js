@@ -7,7 +7,7 @@ var destructivelyAddElementToBeginningOfArray = (a, e) => {
   return a
 }
 
-function addElementToEndOfArray (a, e) { return [a..., e] }
+// function addElementToEndOfArray (a, e) { return [a..., e] }
 
 // var destructivelyAddElementToEndOfArray = (a, e) => {
 //   a.push(e)
