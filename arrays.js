@@ -4,8 +4,6 @@ var addElementToBeginningOfArray = (arr, e) => {
   return [e, ...arr]
 }
 
-// var destructivelyAddElementToBeginningOfArray = (arr, e) => {
-//   let newArr = [... arr];
-//   newArr.unshift(e)
-//   return newArr
-// }
+var destructivelyAddElementToBeginningOfArray = (arr, e) => {
+  return arr.unshift(e)
+}
