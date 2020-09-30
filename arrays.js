@@ -5,5 +5,6 @@ const addElementToBeginningOfArray = (arr, e) => {
 }
 
 const destructivelyAddElementToBeginningOfArray = (arr, e) => {
-  return [e, ...arr]
+  let newArr = [e, ... arr]
+  return newArr
 }
