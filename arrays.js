@@ -1,1 +1,1 @@
-const chocolate = []
+const chocolateBars = []
