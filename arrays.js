@@ -1,1 +1,1 @@
-const chocolateBars = []
+const chocolateBars = ['snickers', ]
