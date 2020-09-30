@@ -1,6 +1,6 @@
-let chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
+var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 
-var addElementToBeginningOfArray = (a, e) => [e, ...a];
+function addElementToBeginningOfArray(a, e) { return [e, ...a]; }
 
 var destructivelyAddElementToBeginningOfArray = (a, e) => {
   a.unshift(e)
