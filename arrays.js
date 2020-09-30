@@ -1,9 +1,9 @@
 const chocolateBars = ['snickers', 'hundred grad', 'kitkate', 'skittles'];
 
-const addElementToBeginningOfArray = () => {
+const addElementToBeginningOfArray = (arr, e) => {
 
 }
 
-const destructivelyAddElementToBeginningOfArray = () => {
-  
+const destructivelyAddElementToBeginningOfArray = (arr, e) => {
+
 }
