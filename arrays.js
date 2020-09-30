@@ -7,9 +7,9 @@ var destructivelyAddElementToBeginningOfArray = (a, e) => {
   return a
 }
 
-let addElementToEndOfArray = (a, e) => [a..., e]
+var addElementToEndOfArray = (a, e) => [a..., e]
 
-let destructivelyAddElementToEndOfArray = (a, e) => {
+var destructivelyAddElementToEndOfArray = (a, e) => {
   a.push(e)
   return a
 }
